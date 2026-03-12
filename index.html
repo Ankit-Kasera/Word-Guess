@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HangMan</title>
+    <link rel="stylesheet" href="hangman.css">
+    <script src="hangman.js" defer></script>
+</head>
+<body>
+    <p id="lives">10 &#10084;&#65039; remaining!</p>
+    <p id="answer"></p>
+<div class="output">
+    <input type="text" class="result" maxlength="1" id="a">
+    <input type="text" class="result" maxlength="1" id="b">
+    <input type="text" class="result" maxlength="1" id="c">
+    <input type="text" class="result" maxlength="1" id="d">
+    <input type="text" class="result" maxlength="1" id="e">
+</div>
+
+    <div class="keyboard">
+    <form>
+        <div class="row1">
+        <input type="button" class="letter" value="Q" onclick="button(this)">
+        <input type="button" class="letter" value="W" onclick="button(this)">
+        <input type="button" class="letter" value="E" onclick="button(this)">
+        <input type="button" class="letter" value="R" onclick="button(this)">
+        <input type="button" class="letter" value="T" onclick="button(this)">
+        <input type="button" class="letter" value="Y" onclick="button(this)">
+        <input type="button" class="letter" value="U" onclick="button(this)">
+        <input type="button" class="letter" value="I" onclick="button(this)">
+        <input type="button" class="letter" value="O" onclick="button(this)">
+        <input type="button" class="letter" value="P" onclick="button(this)">
+        </div>
+        <div class="row2">
+        <input type="button" class="letter" value="A" onclick="button(this)">
+        <input type="button" class="letter" value="S" onclick="button(this)">
+        <input type="button" class="letter" value="D" onclick="button(this)">
+        <input type="button" class="letter" value="F" onclick="button(this)">
+        <input type="button" class="letter" value="G" onclick="button(this)">
+        <input type="button" class="letter" value="H" onclick="button(this)">
+        <input type="button" class="letter" value="J" onclick="button(this)">
+        <input type="button" class="letter" value="K" onclick="button(this)">
+        <input type="button" class="letter" value="L" onclick="button(this)">
+        </div>
+        <div class="row3">
+        <input type="button" class="letter" value="Z" onclick="button(this)">
+        <input type="button" class="letter" value="X" onclick="button(this)">
+        <input type="button" class="letter" value="C" onclick="button(this)">
+        <input type="button" class="letter" value="V" onclick="button(this)">
+        <input type="button" class="letter" value="B" onclick="button(this)">
+        <input type="button" class="letter" value="N" onclick="button(this)">
+        <input type="button" class="letter" value="M" onclick="button(this)">
+        </div>
+    </form>
+    </div>
+
+
+</body>
+</html>
